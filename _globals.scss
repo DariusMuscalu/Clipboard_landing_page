@@ -8,6 +8,46 @@ body {
     font-family: 'Bai Jamjuree', sans-serif;
 }
 
+h1 {
+    color: $secondary-gray;
+    margin: 1rem;
+    padding: 0rem;
+    font-size: 2rem;
+}
+
+h2 {
+    color: $secondary-gray;
+}
+
+p {
+    color: $secondary-grayish;
+    margin: 1.3rem 2.1rem;
+    line-height: 1.8;
+}
+
 a {
     text-decoration: none;
+}
+
+.btn-green {
+    background-color: $primary-cyan;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    width: 85%;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    font-size: 1.2rem;
+    box-shadow: 2px 2px 2px #333;
+}
+
+.btn-blue {
+    background-color: $primary-blue;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    width: 85%;
+    padding: 1rem;
+    font-size: 1.2rem;
+    box-shadow: 2px 2px 2px #333;
 }

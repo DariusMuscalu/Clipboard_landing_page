@@ -1,3 +1,111 @@
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
 @import 'variables';
 @import 'globals';
+
+header {
+    background: url('/images/bg-header-mobile.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+
+    img {
+        margin: 4.3rem 0;
+    }
+}
+
+#track {
+    text-align: center;
+    margin-top: 9rem;
+    margin-bottom: 4rem;
+}
+
+#product {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    img {
+        width: 80%;
+        height: auto;
+    }
+
+    .content {
+        margin: 3rem 0;
+
+        p {
+            margin-bottom: 3rem;
+        }
+    }
+}
+
+#offer {
+    text-align: center;
+    margin-top: 3rem;
+
+    img {
+        width: 90%;
+        height: auto;
+        margin: 2.5rem 0;
+    }
+}
+
+#benefits {
+    text-align: center;
+    margin: 5rem 0;
+
+    div {
+        margin: 3rem 0;
+
+        img {
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+#partners {
+    img {
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+        margin: 3.5rem auto;
+    }
+    
+}
+
+#join {
+    text-align: center;
+    margin: 7rem 0;
+}
+
+ #main-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    background-color: #eee;
+    padding-top: 3rem;
+
+    img  {
+        width: 40%;
+        margin: 1rem auto;
+        display: block;
+    }
+
+     a {
+        margin: 1rem 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color: $secondary-gray;
+    }
+
+    .social {
+       display: flex;
+       
+       i {
+           padding: 1rem;
+           font-size: 1.6rem;
+       }
+    }
+
+}
