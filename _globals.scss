@@ -39,6 +39,11 @@ a {
     margin: 1.5rem 0;
     font-size: 1.2rem;
     box-shadow: 2px 2px 2px #333;
+    cursor: pointer;
+
+    &:hover {
+        opacity: 0.8;
+    }
 }
 
 .btn-blue {
@@ -50,4 +55,9 @@ a {
     padding: 1rem;
     font-size: 1.2rem;
     box-shadow: 2px 2px 2px #333;
+    cursor: pointer;
+
+    &:hover {
+        opacity: 0.8;
+    }
 }

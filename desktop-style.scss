@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+@import 'variables';
+@import 'globals';
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    p {
+        max-width: 640px;
+        margin: auto;
+        font-size: 1.3rem;
+    }
+
+    .btn-green, .btn-blue {
+        max-width: 19%;
+        margin: 4rem 1rem;
+    }
+
+    header {
+        background: url('./images/bg-header-desktop.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #product {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        margin-top: 10rem;
+
+        img {
+            margin-left: -43%;
+        }
+
+        .content {
+            text-align: left;
+            margin-top: 5rem;
+            font-size: 1.5rem;
+
+            p {
+                margin: 0;
+                margin-bottom: 3rem;
+                max-width: 470px;
+            }
+        }
+    }
+
+
+#offer {
+    margin: 8rem 0;
+
+    img {
+        width: 70%;
+    }
+}
+
+#benefits {
+    display: flex;
+    flex-direction: row;
+    max-width: 1500px;
+    margin: auto;
+
+    div {
+        margin: 0 4rem;
+
+        p {
+            margin: 2rem 0;
+        }
+    }
+}
+
+#partners {
+    display: flex;
+    flex-direction: row;
+    max-width: 80%;
+    margin: 10rem auto;
+
+    img {
+        margin: auto;
+        max-width: 200px;
+    }
+}
+
+#main-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 3fr;
+    align-items: flex-start;
+    padding: 4rem 5rem;
+    
+    a {
+        text-align: left;
+    }
+
+    a:hover {
+        color: $primary-cyan;
+    }
+}

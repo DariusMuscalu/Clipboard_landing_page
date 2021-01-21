@@ -3,7 +3,7 @@
 @import 'globals';
 
 header {
-    background: url('/images/bg-header-mobile.png');
+    background: url('./images/bg-header-mobile.png');
     background-repeat: no-repeat;
     background-size: contain;
     text-align: center;
@@ -52,6 +52,8 @@ header {
 #benefits {
     text-align: center;
     margin: 5rem 0;
+    display: flex;
+    flex-direction: column;
 
     div {
         margin: 3rem 0;
@@ -63,6 +65,9 @@ header {
 }
 
 #partners {
+    display: flex;
+    flex-direction: column;
+
     img {
         width: 35%;
         display: flex;
@@ -108,75 +113,5 @@ header {
        }
     }
 
-}
-
-@media (min-width: 768px) {
-    h1 {
-        font-size: 2.5rem;
-    }
-
-    p {
-        max-width: 640px;
-        margin: auto;
-        font-size: 1.1rem;
-    }
-
-    .btn-green, .btn-blue {
-        width: 11%;
-        margin: 4rem 1rem;
-    }
-
-    header {
-        background: url('/images/bg-header-desktop.png');
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
-    #product {
-        display: grid;
-        grid-template-columns: repeat(2,  1fr);
-
-        .content {
-            text-align: left;
-
-            p {
-                margin: 0;
-                margin-bottom: 3rem;
-                max-width: 370px;
-            }
-        }
-    }
-}
-
-#offer {
-    margin: 8rem 0;
-
-    img {
-        width: 70%;
-    }
-}
-
-#benefits {
-    display: flex;
-    max-width: 1500px;
-    margin: auto;
-
-    div {
-        margin: 0 4rem;
-
-        p {
-            margin: 2rem 0;
-        }
-    }
-}
-
-#partners {
-    display: flex;
-    max-width: 600px;
-    margin: 3rem auto;
-
-    img {
-        margin: auto;
-    }
 }
 

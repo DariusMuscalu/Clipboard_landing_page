@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+h1 {
+  color: #4c545d;
+  margin: 1rem;
+  padding: 0rem;
+  font-size: 2rem;
+}
+
+h2 {
+  color: #4c545d;
+}
+
+p {
+  color: #9fabb2;
+  margin: 1.3rem 2.1rem;
+  line-height: 1.8;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn-green {
+  background-color: #26baa4;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  width: 85%;
+  padding: 1rem;
+  margin: 1.5rem 0;
+  font-size: 1.2rem;
+  -webkit-box-shadow: 2px 2px 2px #333;
+          box-shadow: 2px 2px 2px #333;
+  cursor: pointer;
+}
+
+.btn-green:hover {
+  opacity: 0.8;
+}
+
+.btn-blue {
+  background-color: #6173ff;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  width: 85%;
+  padding: 1rem;
+  font-size: 1.2rem;
+  -webkit-box-shadow: 2px 2px 2px #333;
+          box-shadow: 2px 2px 2px #333;
+  cursor: pointer;
+}
+
+.btn-blue:hover {
+  opacity: 0.8;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+p {
+  max-width: 640px;
+  margin: auto;
+  font-size: 1.3rem;
+}
+
+.btn-green, .btn-blue {
+  max-width: 19%;
+  margin: 4rem 1rem;
+}
+
+header {
+  background: url("./images/bg-header-desktop.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#product {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 1fr;
+      grid-template-columns: 2fr 1fr;
+  margin-top: 10rem;
+}
+
+#product img {
+  margin-left: -43%;
+}
+
+#product .content {
+  text-align: left;
+  margin-top: 5rem;
+  font-size: 1.5rem;
+}
+
+#product .content p {
+  margin: 0;
+  margin-bottom: 3rem;
+  max-width: 470px;
+}
+
+#offer {
+  margin: 8rem 0;
+}
+
+#offer img {
+  width: 70%;
+}
+
+#benefits {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  max-width: 1500px;
+  margin: auto;
+}
+
+#benefits div {
+  margin: 0 4rem;
+}
+
+#benefits div p {
+  margin: 2rem 0;
+}
+
+#partners {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  max-width: 80%;
+  margin: 10rem auto;
+}
+
+#partners img {
+  margin: auto;
+  max-width: 200px;
+}
+
+#main-footer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 3fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 3fr;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 4rem 5rem;
+}
+
+#main-footer a {
+  text-align: left;
+}
+
+#main-footer a:hover {
+  color: #26baa4;
+}
+/*# sourceMappingURL=desktop-style.css.map */

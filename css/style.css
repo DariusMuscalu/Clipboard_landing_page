@@ -42,6 +42,11 @@ a {
   font-size: 1.2rem;
   -webkit-box-shadow: 2px 2px 2px #333;
           box-shadow: 2px 2px 2px #333;
+  cursor: pointer;
+}
+
+.btn-green:hover {
+  opacity: 0.8;
 }
 
 .btn-blue {
@@ -54,10 +59,15 @@ a {
   font-size: 1.2rem;
   -webkit-box-shadow: 2px 2px 2px #333;
           box-shadow: 2px 2px 2px #333;
+  cursor: pointer;
+}
+
+.btn-blue:hover {
+  opacity: 0.8;
 }
 
 header {
-  background: url("/images/bg-header-mobile.png");
+  background: url("./images/bg-header-mobile.png");
   background-repeat: no-repeat;
   background-size: contain;
   text-align: center;
@@ -111,6 +121,13 @@ header img {
 #benefits {
   text-align: center;
   margin: 5rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 #benefits div {
@@ -119,6 +136,16 @@ header img {
 
 #benefits div img {
   margin-bottom: 2rem;
+}
+
+#partners {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 #partners img {
@@ -182,75 +209,5 @@ header img {
 #main-footer .social i {
   padding: 1rem;
   font-size: 1.6rem;
-}
-
-@media (min-width: 768px) {
-  h1 {
-    font-size: 2.5rem;
-  }
-  p {
-    max-width: 640px;
-    margin: auto;
-    font-size: 1.1rem;
-  }
-  .btn-green, .btn-blue {
-    width: 11%;
-    margin: 4rem 1rem;
-  }
-  header {
-    background: url("/images/bg-header-desktop.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  #product {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
-  }
-  #product .content {
-    text-align: left;
-  }
-  #product .content p {
-    margin: 0;
-    margin-bottom: 3rem;
-    max-width: 370px;
-  }
-}
-
-#offer {
-  margin: 8rem 0;
-}
-
-#offer img {
-  width: 70%;
-}
-
-#benefits {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  max-width: 1500px;
-  margin: auto;
-}
-
-#benefits div {
-  margin: 0 4rem;
-}
-
-#benefits div p {
-  margin: 2rem 0;
-}
-
-#partners {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  max-width: 600px;
-  margin: 3rem auto;
-}
-
-#partners img {
-  margin: auto;
 }
 /*# sourceMappingURL=style.css.map */
